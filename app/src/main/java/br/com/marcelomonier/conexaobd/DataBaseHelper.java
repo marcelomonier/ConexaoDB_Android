@@ -2,9 +2,10 @@ package br.com.marcelomonier.conexaobd;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-i
+
 public class DataBaseHelper extends SQLiteOpenHelper {
 
     public static final String DATABASE_NAME = "Profissao.db";
@@ -34,6 +35,14 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         sqLiteDatabase.execSQL("DROP TABLE IF EXISTS " + TABLE_NAME);
 
     }
+
+    public Cursor getAllData(){
+
+        SQLiteDatabase db = this.getWritableDatabase();
+        Cursor res = db.rawQuery("SELECT * FROM " + TABLE_NAME, null);
+        return res;
+    }
+
 
     public boolean inserirDados (String nome, String sobrenome, String profissao){
         SQLiteDatabase db = this.getWritableDatabase();
