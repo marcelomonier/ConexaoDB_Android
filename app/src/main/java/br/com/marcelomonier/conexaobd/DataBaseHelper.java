@@ -36,6 +36,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
 
     }
 
+    //Método para buscar todos os dados do banco sqlite
     public Cursor getAllData(){
 
         SQLiteDatabase db = this.getWritableDatabase();
@@ -43,7 +44,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         return res;
     }
 
-
+    //Método para inserir dados no banco sqlite
     public boolean inserirDados (String nome, String sobrenome, String profissao){
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();

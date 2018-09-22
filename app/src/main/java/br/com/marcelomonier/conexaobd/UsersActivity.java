@@ -39,6 +39,8 @@ public class UsersActivity extends AppCompatActivity {
 
     }
 
+    //Método para imprimir os dados existentes no banco sqlite
+
     public void ClikMe(){
 
         Cursor res = myDB.getAllData();
@@ -46,6 +48,7 @@ public class UsersActivity extends AppCompatActivity {
 
         if (res != null && res.getCount()>0){
 
+            //Rodar o banco inteiro até existir dados.
             while (res.moveToNext()){
 
                 stringBuffer.append("Id: "+res.getString(0)+"\n");

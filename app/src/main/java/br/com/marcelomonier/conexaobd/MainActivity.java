@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                 String profession = edit_profissao.getText().toString();
 
 
-
+                //Acionando o método para inserir dados
                 Boolean result =  myDb.inserirDados(name, surname, profession);
 
                 if (result == true){
