@@ -10,7 +10,7 @@ import android.widget.TextView;
 public class MenuActivity extends AppCompatActivity {
 
 
-    ImageView img_user, img_addUser;
+    ImageView img_user, img_addUser, img_updateUser, img_deleteUser;
 
 
     @Override
@@ -21,6 +21,8 @@ public class MenuActivity extends AppCompatActivity {
 
         img_user = (ImageView) findViewById(R.id.imageView2);
         img_addUser = (ImageView) findViewById(R.id.imageView);
+        img_updateUser = (ImageView) findViewById(R.id.imageView4);
+        img_deleteUser = (ImageView) findViewById(R.id.imageView3) ;
 
 
         img_addUser.setOnClickListener(new View.OnClickListener() {
@@ -45,6 +47,29 @@ public class MenuActivity extends AppCompatActivity {
             }
         });
 
+        img_updateUser.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MenuActivity.this, UpdateActivity.class);
+                startActivity(i);
+            }
+        });
+
+
+
+        img_deleteUser.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MenuActivity.this, DeleteActivity.class);
+                startActivity(i);
+            }
+        });
+
 
     }
-}
+
+    }
+
+
+
+

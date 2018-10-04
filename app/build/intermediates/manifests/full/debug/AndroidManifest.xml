@@ -27,6 +27,8 @@
             </intent-filter>
         </activity>
         <activity android:name="br.com.marcelomonier.conexaobd.UsersActivity" />
+        <activity android:name="br.com.marcelomonier.conexaobd.UpdateActivity" />
+        <activity android:name="br.com.marcelomonier.conexaobd.DeleteActivity" />
     </application>
 
 </manifest>

@@ -68,6 +68,10 @@
         "source": "/Users/marcelomonier/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc02.aar/ff65e4f558c1b88be933cc974132fa90/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
+        "merged": "/Users/marcelomonier/MEGA/workspaceKotlin/ConexaoBD/app/build/intermediates/res/merged/debug/drawable_update2.png.flat",
+        "source": "/Users/marcelomonier/MEGA/workspaceKotlin/ConexaoBD/app/src/main/res/drawable/update2.png"
+    },
+    {
         "merged": "/Users/marcelomonier/MEGA/workspaceKotlin/ConexaoBD/app/build/intermediates/res/merged/debug/layout_abc_screen_content_include.xml.flat",
         "source": "/Users/marcelomonier/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc02.aar/ff65e4f558c1b88be933cc974132fa90/res/layout/abc_screen_content_include.xml"
     },
@@ -548,6 +552,10 @@
         "source": "/Users/marcelomonier/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc02.aar/ff65e4f558c1b88be933cc974132fa90/res/drawable-xxxhdpi-v4/abc_ic_star_black_16dp.png"
     },
     {
+        "merged": "/Users/marcelomonier/MEGA/workspaceKotlin/ConexaoBD/app/build/intermediates/res/merged/debug/layout_activity_update.xml.flat",
+        "source": "/Users/marcelomonier/MEGA/workspaceKotlin/ConexaoBD/app/src/main/res/layout/activity_update.xml"
+    },
+    {
         "merged": "/Users/marcelomonier/MEGA/workspaceKotlin/ConexaoBD/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "/Users/marcelomonier/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc02.aar/ff65e4f558c1b88be933cc974132fa90/res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
     },
@@ -930,6 +938,10 @@
     {
         "merged": "/Users/marcelomonier/MEGA/workspaceKotlin/ConexaoBD/app/build/intermediates/res/merged/debug/drawable_abc_list_selector_background_transition_holo_light.xml.flat",
         "source": "/Users/marcelomonier/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc02.aar/ff65e4f558c1b88be933cc974132fa90/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/marcelomonier/MEGA/workspaceKotlin/ConexaoBD/app/build/intermediates/res/merged/debug/layout_activity_delete.xml.flat",
+        "source": "/Users/marcelomonier/MEGA/workspaceKotlin/ConexaoBD/app/src/main/res/layout/activity_delete.xml"
     },
     {
         "merged": "/Users/marcelomonier/MEGA/workspaceKotlin/ConexaoBD/app/build/intermediates/res/merged/debug/drawable_abc_ic_clear_material.xml.flat",

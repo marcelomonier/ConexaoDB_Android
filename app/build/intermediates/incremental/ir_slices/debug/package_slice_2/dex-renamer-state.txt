@@ -1,4 +1,4 @@
-#Wed Sep 19 20:10:07 BRT 2018
+#Tue Oct 02 19:55:50 BRT 2018
 base.0=/Users/marcelomonier/MEGA/workspaceKotlin/ConexaoBD/app/build/intermediates/transforms/dexMerger/debug/2
 path.0=classes.dex
 renamed.0=classes.dex
