@@ -91,11 +91,11 @@ activity#br.com.marcelomonier.conexaobd.UsersActivity
 ADDED from /Users/marcelomonier/MEGA/workspaceKotlin/ConexaoBD/app/src/main/AndroidManifest.xml:20:9-51
 	android:name
 		ADDED from /Users/marcelomonier/MEGA/workspaceKotlin/ConexaoBD/app/src/main/AndroidManifest.xml:20:19-48
-activity#br.com.marcelomonier.conexaobd.UpdateActivity
+activity#br.com.marcelomonier.conexaobd.DeleteActivity
 ADDED from /Users/marcelomonier/MEGA/workspaceKotlin/ConexaoBD/app/src/main/AndroidManifest.xml:21:9-52
 	android:name
 		ADDED from /Users/marcelomonier/MEGA/workspaceKotlin/ConexaoBD/app/src/main/AndroidManifest.xml:21:19-49
-activity#br.com.marcelomonier.conexaobd.DeleteActivity
+activity#br.com.marcelomonier.conexaobd.UpdateActivity
 ADDED from /Users/marcelomonier/MEGA/workspaceKotlin/ConexaoBD/app/src/main/AndroidManifest.xml:22:9-61
 	android:name
 		ADDED from /Users/marcelomonier/MEGA/workspaceKotlin/ConexaoBD/app/src/main/AndroidManifest.xml:22:19-49

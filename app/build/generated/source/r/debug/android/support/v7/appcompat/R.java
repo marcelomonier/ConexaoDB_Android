@@ -636,7 +636,7 @@ public final class R {
         public static final int customPanel = 0x7f070033;
         public static final int decor_content_parent = 0x7f070034;
         public static final int default_activity_button = 0x7f070035;
-        public static final int edit_query = 0x7f070041;
+        public static final int edit_query = 0x7f070040;
         public static final int end = 0x7f070042;
         public static final int expand_activities_button = 0x7f070043;
         public static final int expanded_menu = 0x7f070044;

@@ -48,7 +48,9 @@ public class DataBaseHelper extends SQLiteOpenHelper {
 
     //Método para inserir dados no banco sqlite
     public boolean inserirDados (String nome, String sobrenome, String profissao){
+
         SQLiteDatabase db = this.getWritableDatabase();
+
         ContentValues contentValues = new ContentValues();
 
         contentValues.put(COL_2, nome);
@@ -77,9 +79,9 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         contentValues.put(COL_3, sobrenome);
         contentValues.put(COL_4, profissao);
 
-        int result =db.update(TABLE_NAME, contentValues, "ID =?", new String[]{id});
+        int result = db.update(TABLE_NAME, contentValues, "ID =?", new String[]{id});
 
-        if (result > 0){
+        if (result>0){
 
             return true;
 
@@ -97,7 +99,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
     public Integer deleteData(String id){
 
         SQLiteDatabase db = this.getWritableDatabase();
-        int i = db.delete(TABLE_NAME, "ID=?", new String[] {id});
+        int i = db.delete(TABLE_NAME, "ID = ?", new String[] {id});
         return i;
 
 

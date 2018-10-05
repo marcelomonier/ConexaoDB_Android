@@ -30,7 +30,15 @@ public class DeleteActivity extends AppCompatActivity {
                 String id = txt_id.getText().toString();
                 int result = myDb.deleteData(id);
 
-                Toast.makeText(DeleteActivity.this, result + ": Linha apagada", Toast.LENGTH_SHORT).show();
+                if (result != 0){
+                    Toast.makeText(DeleteActivity.this, "Usuário deletado", Toast.LENGTH_SHORT).show();
+                } else{
+
+                    Toast.makeText(DeleteActivity.this, "Usuário não existe", Toast.LENGTH_SHORT).show();
+
+                }
+
+
 
             }
         });
